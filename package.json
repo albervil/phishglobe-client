@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "prod": "NODE_ENV=production node server.js",
     "postinstall": "node ./node_modules/webpack/bin/webpack.js -p"
   },
   "repository": {
@@ -22,6 +23,8 @@
     "@types/react-dom": "^16.0.0",
     "@types/react-leaflet": "^1.1.4",
     "awesome-typescript-loader": "^3.2.3",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.5",
     "leaflet": "^1.2.0",
     "lodash.filter": "^4.6.0",
     "lodash.find": "^4.6.0",
@@ -38,7 +41,6 @@
     "typed-countries": "^1.1.0",
     "typescript": "^2.5.3",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1",
-    "file-loader": "^1.1.5"
+    "webpack-dev-server": "^2.9.1"
   }
 }
