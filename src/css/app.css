@@ -1,0 +1,80 @@
+body{
+    background-color: #000000 !important;
+    color: #bebebe !important;
+}
+.title{
+    color: #3ba5ff !important;
+}
+.leaflet-container {
+    height: 95%;
+    width: 100%;
+}
+.leaflet-popup-tip-container {
+    width: 100%;
+}
+.leaflet-popup-content { 
+    width: auto !important; 
+} 
+.list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+}
+.list table{
+    table-layout: fixed;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    position: relative;
+}
+.header {
+    position: absolute;
+    top: 10;
+    left: 50%;
+    z-index: 10;
+}
+.clock {
+    position: relative; 
+    left: -50%;
+    color: #3ba5ff !important;
+}
+.phishtable.table-striped>tbody>tr:nth-of-type(odd){
+    background-color:#0a141c;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #300000;
+}
+.phish {
+    display: block;
+}
+.list-ops { 
+    position: absolute;
+    top: -2;
+    left: 98%;
+    z-index: 10;
+}
+.filter-button {
+    position: relative; 
+    left: -90%;
+}
+.filter-link {
+    padding: 2px;
+    color: #0a141c !important;
+}
+.filter-link:hover {
+    color: #2a345c !important;
+    text-decoration: none;
+}
+.target {
+    background: lightsalmon;
+    border-radius: 6px 6px 6px 6px;
+}
+.country {
+    background: lightgreen;
+    border-radius: 6px 6px 6px 6px;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
