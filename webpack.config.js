@@ -20,13 +20,6 @@ module.exports = {
         modules: ['src', 'node_modules'],
     },
 
-    // configure the dev server to run
-    devServer: {
-        port: 3000,
-        historyApiFallback: true,
-        inline: true
-    },
-
     module: {
         rules: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'
