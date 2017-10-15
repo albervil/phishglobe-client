@@ -17,7 +17,7 @@ module.exports = {
         extensions: [".ts", ".tsx", ".js", ".json", ".png"],
 
         // add 'src' to the modules, so that when you import files you can do so with 'src' as the relative route
-        modules: ['src', 'node_modules'],
+        modules: ['src', 'node_modules', 'dist'],
     },
 
     module: {
